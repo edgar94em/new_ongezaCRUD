@@ -72,6 +72,10 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
                         <h1>View Record</h1>
                     </div>
                     <div class="form-group">
+                        <label>ID</label>
+                        <p class="form-control-static"><?php echo $row["id"]; ?></p>
+                    </div>
+                    <div class="form-group">
                         <label>First Name</label>
                         <p class="form-control-static"><?php echo $row["first_name"]; ?></p>
                     </div>
